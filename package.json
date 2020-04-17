@@ -1,0 +1,26 @@
+{
+  "name": "kenneh-company",
+  "version": "0.0.1",
+  "description": "Backend para la web www.kennehcompany.com",
+  "main": "index.js",
+  "author": "Walther Chambilla Zamora",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.19.0",
+    "connect-multiparty": "^2.2.0",
+    "express": "^4.17.1",
+    "global": "^4.4.0",
+    "jwt-simple": "^0.5.6",
+    "moment": "^2.24.0",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  }
+}
