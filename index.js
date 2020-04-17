@@ -1,6 +1,6 @@
 const Sequelize = require("sequelize");
 const app = require("./app");
-const port = process.env.Port || 3979;
+const port = process.env.Port || 3000;
 const {
   API_VERSION,
   IP_SERVER,
